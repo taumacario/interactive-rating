@@ -1,16 +1,19 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { RateContext } from '../../context/RateContext';
 import * as S from './styles'
 
 interface CircleProps {
   value: number
 }
 
-export function Circle({ value} : CircleProps) {
-  const [rate, setRate] = useState(0)
+export function Circle({ value } : CircleProps) {
+  const {setRate, rate} = useContext(RateContext)
 
   return (
-    <S.Circle onClick={() => setRate(value)}>
+    <>
+    <S.Circle layout={rate === value} onClick={() => setRate(value)}>
       {value}
     </S.Circle>
+    </>
   );
 }

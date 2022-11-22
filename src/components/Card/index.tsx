@@ -1,14 +1,19 @@
-import { ReactNode } from 'react';
+import { useContext } from 'react';
 import * as S from './styles';
 
-interface CardProps {
-  children: ReactNode
-}
+import {RateContext} from '../../context/RateContext'
+import { Acknowledgment } from '../Acknowledgment';
+import { Rating } from '../Rating';
 
-export function Card({ children } : CardProps) {
+export function Card() {
+  const {hideThanks} = useContext(RateContext)
+
   return (
     <S.Card>
-      {children}
+      {hideThanks ?
+        <Rating /> :
+        <Acknowledgment />
+      }
     </S.Card>
   );
 }

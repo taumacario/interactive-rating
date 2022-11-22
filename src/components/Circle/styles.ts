@@ -8,8 +8,10 @@ export const Circle = styled('button', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+
   background: '$grey300',
   color: '$lightGrey',
+  
   fontSize: '1.8rem',
   fontWeight: '$bold',
 
@@ -17,9 +19,13 @@ export const Circle = styled('button', {
     background: '$orange',
     color: '$white',
   },
-  
-  '&:active': {
-    background: '$mediumGrey',
-    color: '$white',
-  },
+
+  variants: {
+    layout: { 
+      true: {
+        background: '$mediumGrey',
+        color: '$white',
+      }
+    }
+  }
 } )
