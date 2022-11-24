@@ -26,12 +26,12 @@ Users should be able to:
 ### Screenshot
 
 
-# Mobile
+#### Mobile
  
 <img width="579" alt="Captura de Tela 2022-11-23 às 22 58 04" src="https://user-images.githubusercontent.com/97693624/203678405-969d3142-31ec-4a5c-a0be-5f3d4f56f6f7.png">
 
 
-# Desktop
+#### Desktop
 
 <img width="715" alt="Captura de Tela 2022-11-23 às 22 58 35" src="https://user-images.githubusercontent.com/97693624/203678454-616aafb6-575e-4ecd-b46f-9eb954b6f3a8.png">
 
