@@ -12,4 +12,15 @@ export const Star = styled('div', {
   fontWeight: '$bold',
   color: '$lightGrey',
   fontSize: '1.8rem',
+
+  '@bp1': {
+    width: '4rem',
+    height: '4rem',
+  },
+
+  img: {
+    '@bp1': {
+      width: '1.3rem',
+    }
+  }
 } )

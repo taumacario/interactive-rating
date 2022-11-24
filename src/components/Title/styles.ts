@@ -13,5 +13,10 @@ export const Title = styled('h2', {
         textAlign: 'center'
       }
     }
+  },
+
+  '@bp1': {
+    fontSize: '2.4rem',
+    marginTop: '2rem',
   }
 })

@@ -5,4 +5,9 @@ export const Card = styled('div', {
   padding: '3.5rem',
   borderRadius: '2.9rem',
   flex: '1',
+
+  '@bp1': {
+    padding: '2.5rem',
+    borderRadius: '1.5rem',
+  },
 })

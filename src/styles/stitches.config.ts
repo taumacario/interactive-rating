@@ -4,11 +4,6 @@ export const {
   styled,
   css,
   globalCss,
-  // keyframes,
-  // getCssText,
-  // theme,
-  // createTheme,
-  // config,
 } = createStitches({
   theme: {
     colors: {
@@ -27,4 +22,7 @@ export const {
       regular: 400,
     },
   },
+  media: {
+    bp1: '(max-width: 640px)',
+  }
 });

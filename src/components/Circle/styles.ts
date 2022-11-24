@@ -27,5 +27,11 @@ export const Circle = styled('button', {
         color: '$white',
       }
     }
-  }
+  },
+
+  '@bp1': {
+    width: '4rem',
+    height: '4rem',
+    fontSize: '1.5rem',
+  },
 } )
